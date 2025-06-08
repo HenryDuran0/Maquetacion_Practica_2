@@ -1,0 +1,110 @@
+@media screen and (max-width: 480px) {
+    .header_gris {
+        flex-direction: column;
+        height: 80px;
+    }
+
+    .header_gris_email {
+        /* border: 2px red solid; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 0;
+        color: #7d7d7d;
+        gap: 20px;
+    }
+
+    .header_gris_email p {
+        font-size: 1em;
+    }
+
+    .header_gris_redes {
+        /* border: 2px red solid; */
+        align-items: center;
+        gap: 0;
+        margin-right: 0;
+        height: 100%;
+    }
+
+    .header_gris_redes a {
+        font-size: 1.3em;
+    }
+
+    .header {
+        /* border: 2px red solid; */
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .botones {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .botones a {
+        border-bottom: 3px #313036 solid;
+        padding-left: 40px;
+        font-size: 20px;
+    }
+
+    /* Banner */
+    .banner {
+        height: 500px;
+    }
+
+    .slide_fig img {
+        width: 100%;
+        object-fit: cover;
+    }
+
+    .slide_info h2 { 
+        margin-top: 0;
+    }
+
+    /* Empresa */
+
+    .cont_personas {
+        flex-direction: column;
+        height: fit-content;
+    }
+
+    .cont_persona {
+        margin-bottom: 20px;
+    }
+
+    /* Servicios */
+
+    .cont_servicios {
+        flex-direction: column;
+    }
+
+    .cont_servicio {
+        margin-bottom: 20px;
+    }
+
+    /* Promociones */
+
+    .cont_promos3 {
+        flex-direction: column;
+        height: fit-content;
+    }
+
+    .cont_promo {
+        margin-bottom: 20px;
+    }
+
+    /* Instalaciones */
+
+    .cont_instalaciones {
+        flex-direction: column; 
+    }
+
+
+
+
+    .cont_servicios {
+        flex-direction: column;
+    }
+}
